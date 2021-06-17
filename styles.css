@@ -1,0 +1,193 @@
+/* body index page */
+body.index{
+    background-image: url('img/asthetic.jpg');
+    color: white;
+    font-family: Alternate Gothic;
+    background-size: cover;
+}
+body.video{
+    background-image: url('img/stars.jpg');
+    color: white;
+    font-family: Alternate Gothic;
+    background-size: cover;
+    
+}
+
+body.images{
+    background-image: url('img/bg.jpg');
+    color: white;
+    font-family: Alternate Gothic;
+    background-size: cover;
+    border-style: double;
+    border-color:pink;
+}
+/*contact page*/
+body.contact{
+    background-image: url('img/darktheme.jpg');
+    color: white;
+    font-family: Alternate Gothic;
+    background-size: cover;
+    
+}
+/*about us page*/
+body.aboutus{
+    background-image: url('img/darkimage.jpg');
+    color: white;
+    font-family: Alternate Gothic;
+    background-size: cover;
+}
+
+/* text link decoration while/after clicking*/
+a{
+    text-decoration: none;
+    color: white;
+}
+/*
+a:hover{
+    background-color: black;
+    color: red;
+}*/
+
+/*Img from unorder list*/
+header .Ayushjj a{
+    background-image: url("img/Ayush.png");
+	background-size: 100px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 120px;
+	width: 120px;
+	text-indent: -999999px;
+    margin-left: -700px;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    margin-left: 730px;   
+}
+li{
+    display: inline-block;
+    margin: 13px;
+    font-size: 22px;
+    
+}
+/* link decoration*/ 
+li:hover{
+    background-color:grey;
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: thistle;
+}
+h2{
+    font-size: 35px;
+    text-align: center;
+}
+section{
+    margin-top: 40px;
+   margin-left: 425px;
+}
+/*home img*/
+div{
+    display: inline-block;
+    margin: 15px;
+}
+/*img*/
+div.contact{
+    margin-left: 510px;
+    background-color: black;
+}
+p.aboutus{
+    text-align: center;
+    font-size: 30px;
+    font: black;
+}
+/* Footer */
+footer{
+    margin-top: 110px;
+   color: yellow;
+
+}
+/*contact*/
+p{
+    text-align: center;
+    font-size: 30px;
+    font: black;
+}
+
+/*about us page*/
+h1.aboutus{
+    margin-top: 50px;
+}
+footer.aboutus{
+    margin-top: 134px;
+  
+}
+section{
+    margin-left: 430px;
+    }
+section.features{
+display: flex;
+flex-direction: row;
+margin-left: 90px;
+}
+section.features figure a img{
+   width: 280px;
+   border-radius: 200px;
+   box-shadow: grey 5px 5px;
+}
+section.features figure figcaption{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+/*photoes*/
+
+section.photos figure.imgg {
+    margin: 0px;
+}
+/*thulo image*/
+section.photos figure.imgg img{
+    margin: 0px;
+    width: 1210px;
+    height: 500px;
+    
+}
+
+section.photos{
+margin: 10px;
+}
+section.photos div.img{
+    margin: 0px;
+}
+/*sano image*/
+section.photos div.img img{
+    max-width: 300px;
+    max-height: 300px;
+    display: flex;
+    flex-direction: row;
+    
+}
+/*one image*/
+section.photos div.img.la img{
+   width: 270px;
+   height: 300px;
+}
+
+h1.photos{
+    text-align: center;
+    color:pink;
+    font: bolder;
+   
+   border-style: double;
+    margin-top: 5px;
+}
+nav.imago{
+    margin-left: 70px;
+}
+
+
+
